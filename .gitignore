@@ -10,6 +10,7 @@
 *-backups
 *.kicad_prl
 *.sch-bak
+*.lck
 *~
 _autosave-*
 *.tmp
@@ -19,6 +20,7 @@ fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
+*.round-tracks-config
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
