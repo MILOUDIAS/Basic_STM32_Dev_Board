@@ -532,7 +532,7 @@
 			(pintype "passive")
 			(uuid "da2d3aed-359c-4411-aef3-d1836d486dd5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1006,7 +1006,7 @@
 			(pintype "passive")
 			(uuid "4f4817d6-1718-4214-9044-2096a2bb73eb")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1297,12 +1297,12 @@
 			(pintype "passive")
 			(uuid "7bf38559-7fa7-449b-9f61-a78f9c0a891e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_6.3x6.3_H3.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.7 1.6 1)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -1316,7 +1316,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7143431d-65a3-4dc1-8c0f-f918ae1b424f")
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09c9536e-2e0a-41e1-aba0-736aa1048657")
@@ -1481,7 +1481,7 @@
 			(uuid "221d76c8-6d6e-4450-be2a-d6c6891d8cba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c44eb8ab-672c-4585-bda5-7a119daa8760")
 			(effects
@@ -1509,7 +1509,7 @@
 			(pintype "passive")
 			(uuid "16f815b0-4ba2-42c8-ba39-880b51f917b9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1743,7 +1743,7 @@
 			(pintype "passive")
 			(uuid "38b7ba86-81fd-40e7-b8b7-fa28487f9af1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2034,12 +2034,12 @@
 			(pintype "passive")
 			(uuid "8c06f6bc-8f7c-4bed-8f98-043a5fb2daf8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_6.3x6.3_H3.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 2 2 1)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -2245,7 +2245,7 @@
 			(pintype "passive")
 			(uuid "64218692-46c7-4d0b-a072-f515f0d772bc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2541,7 +2541,7 @@
 			(pintype "passive")
 			(uuid "58db8ccf-044e-4710-81ba-83265c3ecb3d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2752,7 +2752,7 @@
 			(pintype "passive")
 			(uuid "4a0243c8-fa92-4981-a492-8f4588366ca1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2963,7 +2963,7 @@
 			(pintype "passive")
 			(uuid "7bfb2c07-2484-4600-8b0a-60bb9aac1e66")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3376,15 +3376,15 @@
 			(pintype "passive+no_connect")
 			(uuid "b95f19b5-9ea5-4291-bffd-24537a1264d1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-AB_Molex_47590-0001.wrl"
+		(model "${KIPRJMOD}/packages3D/10118193-0001lfc.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -127.5 3.8 -0.3)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.3 1 1.2)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 180)
 			)
 		)
 	)
@@ -3587,7 +3587,7 @@
 			(pintype "passive")
 			(uuid "d8c2b47f-6a6f-4d71-bb65-8aa84292f1e9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3798,7 +3798,7 @@
 			(pintype "passive")
 			(uuid "4336295c-1f81-4efd-99c2-2703fd2d8650")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4009,7 +4009,7 @@
 			(pintype "passive")
 			(uuid "5b7a872a-7a8a-4b38-9379-ca8c25ade303")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4220,7 +4220,7 @@
 			(pintype "passive")
 			(uuid "bfd61d30-3545-4659-8a91-81b69c7530e0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4431,7 +4431,7 @@
 			(pintype "passive")
 			(uuid "b4ab14ad-8f26-48a5-87dd-7b5f40bffc4b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4642,7 +4642,7 @@
 			(pintype "passive")
 			(uuid "639fd9d3-48a3-4e20-b7a1-b694ad55320f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4997,7 +4997,7 @@
 			(pintype "passive")
 			(uuid "72639c65-6a2b-425e-8899-866efb806dbe")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/FanPinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5208,7 +5208,7 @@
 			(pintype "passive")
 			(uuid "66e30dcb-738f-4a41-8110-0de702c9e08c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5571,7 +5571,7 @@
 			(pintype "passive")
 			(uuid "493fe47a-7ebe-4f43-af6d-413b50e94c3f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm.wrl"
+		(model "${KIPRJMOD}/packages3D/Crystal_SMD_0603-4Pin_6.0x3.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5783,7 +5783,7 @@
 			(pintype "passive")
 			(uuid "7ffb546e-2dc9-4dcd-a7e4-5b940dde4ac1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/L_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5994,7 +5994,7 @@
 			(pintype "passive")
 			(uuid "35f99486-ee04-43ab-89e9-55ffb1cd0fbe")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6205,7 +6205,7 @@
 			(pintype "passive")
 			(uuid "d14d9960-dc81-47da-8ed3-10116339ade4")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6629,7 +6629,7 @@
 			(pintype "open_collector")
 			(uuid "df364ce4-ab2e-4748-896a-3e01c9378e55")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x05_P1.27mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6840,7 +6840,7 @@
 			(pintype "passive")
 			(uuid "47bbe4b0-10d9-4e0c-8678-f64bfdf1c3c2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7051,7 +7051,7 @@
 			(pintype "passive")
 			(uuid "a85c24f0-8fae-4311-8045-4b90b9a67e63")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7262,7 +7262,7 @@
 			(pintype "passive")
 			(uuid "2130fd6f-12ff-41ea-9ecd-57be60878fe9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7473,7 +7473,7 @@
 			(pintype "passive")
 			(uuid "e2e7716f-7b38-4024-a7a5-004c3387b66f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7916,7 +7916,7 @@
 			(pintype "passive")
 			(uuid "f01d4cc5-779d-404c-beba-7112e457eeee")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7935,7 +7935,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0fb5a751-9b96-435f-973e-22b866df55c1")
@@ -7947,7 +7947,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "df33905c-ee6c-47db-b86b-9c50936ee9d9")
 			(effects
@@ -8099,7 +8099,7 @@
 			(uuid "947734a8-55f6-4b05-9227-1ece89efbe8e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ae6e14de-5a43-4cb4-907e-447a683941a0")
 			(effects
@@ -8127,7 +8127,7 @@
 			(pintype "passive")
 			(uuid "7c47bc54-c352-4fac-9405-2869f662cbe7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8338,7 +8338,7 @@
 			(pintype "passive")
 			(uuid "0bfa1ace-e5a3-422c-8a70-dae459ea0253")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8549,7 +8549,7 @@
 			(pintype "passive")
 			(uuid "5f3418ce-d525-4ea3-8e34-12b206b5c42c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8986,7 +8986,7 @@
 			(pintype "passive")
 			(uuid "1d9fc7fb-48f9-40c5-ab4f-f76805753f9a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl"
+		(model "${KIPRJMOD}/packages3D/SW_SPDT_PCM12.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9197,7 +9197,7 @@
 			(pintype "passive")
 			(uuid "3e8c2c13-befd-4968-a40a-f8cf8cca8b1b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9408,7 +9408,7 @@
 			(pintype "passive")
 			(uuid "a0f80ca9-b3ef-4929-8dbc-71d4afb87380")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9619,7 +9619,7 @@
 			(pintype "passive")
 			(uuid "31251f60-72cf-4a30-8200-7b072ba35bbe")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9884,7 +9884,7 @@
 			(pintype "passive")
 			(uuid "483110f5-abfa-4be9-9270-7bc8d0dea757")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10096,7 +10096,7 @@
 			(pintype "passive")
 			(uuid "cdde2f0d-8106-4d99-8dba-f88b0ca5b985")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10307,7 +10307,7 @@
 			(pintype "passive")
 			(uuid "8c3ac656-5667-4670-be87-98e0b2666c21")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10518,7 +10518,7 @@
 			(pintype "passive")
 			(uuid "75c0a1f8-c177-4294-9c8d-abece0c25c16")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10729,7 +10729,7 @@
 			(pintype "passive")
 			(uuid "c066dd04-b5bc-420c-9361-cdc122c53e85")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/Fuse_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10940,7 +10940,7 @@
 			(pintype "passive")
 			(uuid "0b98ddae-4a73-455b-aafa-eaf42db69658")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11151,7 +11151,7 @@
 			(pintype "passive")
 			(uuid "be1d47ab-b458-4b04-929f-8a461f6fe295")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12266,7 +12266,7 @@
 			(pintype "power_in")
 			(uuid "f05b5e78-e93b-46ec-b42a-7073fd8a5f46")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl"
+		(model "${KIPRJMOD}/packages3D/LQFP-64_10x10mm_P0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12477,7 +12477,7 @@
 			(pintype "passive")
 			(uuid "2684d61e-43ad-4999-a43e-560d2a3d85d8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12688,7 +12688,7 @@
 			(pintype "passive")
 			(uuid "a6c1dc15-0d2e-4ee3-9492-57c6245ba8c5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12899,7 +12899,7 @@
 			(pintype "passive")
 			(uuid "ec477e82-0384-4062-bbae-d13228db66ba")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13110,7 +13110,7 @@
 			(pintype "passive")
 			(uuid "46795e10-ef74-4c99-b59e-c5845b5b1476")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13321,7 +13321,7 @@
 			(pintype "passive")
 			(uuid "5c1c703e-1453-42ff-8d15-e822d7180648")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13667,7 +13667,7 @@
 			(pintype "passive")
 			(uuid "a32c05b2-f292-42bd-9c70-7526907afe52")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/D_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13900,7 +13900,7 @@
 			(pintype "passive")
 			(uuid "43cd7e2c-48e6-45c7-b648-4be766f3552a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14255,7 +14255,7 @@
 			(pintype "passive")
 			(uuid "88ba2955-cfe9-478d-a01d-0961a1b38f13")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/FanPinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14466,7 +14466,7 @@
 			(pintype "passive")
 			(uuid "e53c5e4b-81d2-4ac7-b585-ba55f022545f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14817,12 +14817,12 @@
 			(zone_connect 2)
 			(uuid "746cebf1-6f44-4944-926d-1ff7c8b09c4e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 2.4 1.9 1)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -15028,7 +15028,7 @@
 			(pintype "passive")
 			(uuid "3d3ca805-8fd5-4450-a14a-3b801dc025a3")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15239,7 +15239,7 @@
 			(pintype "passive")
 			(uuid "a819c93a-835c-4262-bb7a-6caf43a3c487")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15450,7 +15450,7 @@
 			(pintype "passive")
 			(uuid "be9888c1-811a-444d-8445-0dc4c5a4dca5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15472,6 +15472,72 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "c9c4b9bb-b239-46fe-ba67-b3af5a8c7d0c")
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "68869197-759f-4bce-bc8f-a85629c7ef61")
+		(pts
+			(xy 130.71256 71.150185) (xy 130.71256 115.854185)
+		)
+		(height 7.52256)
+		(gr_text "44.7040 mm"
+			(at 122.09 93.502185 90)
+			(layer "F.SilkS")
+			(uuid "68869197-759f-4bce-bc8f-a85629c7ef61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "fb0b3a1b-65c8-433d-86a4-d3f59018db44")
+		(pts
+			(xy 176.94056 115.854185) (xy 130.71256 115.854185)
+		)
+		(height -9.621815)
+		(gr_text "46.2280 mm"
+			(at 153.82656 124.376 0)
+			(layer "F.SilkS")
+			(uuid "fb0b3a1b-65c8-433d-86a4-d3f59018db44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 160.055 104.359)
