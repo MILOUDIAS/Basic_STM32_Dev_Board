@@ -7,7 +7,7 @@ The Project is about an STM32 based development board used mainly for educative 
 ### PCB
 
 ![front](/images/front.png)
-![back](/demo/back.png)
+![back](/images/back.png)
 
 ### Sshematic
 
